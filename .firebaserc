@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "film-planner": {
+      "hosting": {
+        "film-planner": [
+          "film-planner"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "film-planner"
+  }
+}

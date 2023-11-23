@@ -91,8 +91,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "film-planner:build:production"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b682302e-a2fa-4203-9898-2757928bc473"
   }
 }
