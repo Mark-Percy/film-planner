@@ -1,0 +1,9 @@
+<button (click)="createUser = !createUser">Create Account</button>
+<button>Login</button>
+<form [formGroup]="loginForm">
+    <label>Email</label>
+    <input type="text" formControlName="email">
+    <label>Password</label>
+    <input type="password" formControlName="password">
+    <button (click)="submitForm()">Login</button>
+</form>

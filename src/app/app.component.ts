@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthenticationService } from './authentication.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'film-planner';
+  constructor(private authService: AuthenticationService) {}
+  signout() {
+    this.authService.signout()
+  }
 }
